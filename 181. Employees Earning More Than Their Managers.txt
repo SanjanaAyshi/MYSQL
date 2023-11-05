@@ -1,0 +1,3 @@
+SELECT EM.name AS Employee
+FROM Employee AS EM , Employee AS MA
+WHERE EM.MANAGERID=MA.id AND EM.SALARY>Ma.SALARY
